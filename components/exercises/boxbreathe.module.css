@@ -1,0 +1,41 @@
+.allCircles{
+  position:absolute;
+  /* margin: auto; */
+  /* transform: translate(50%,0%); */
+  /* @apply  */
+  @apply w-[350px] h-[350px] md:w-[450px] md:h-[450px] lg:w-[600px] lg:h-[600px];
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  /* top:37.5% */
+}
+
+.modal{
+  position:absolute;
+  /* margin: auto; */
+  /* transform: translate(50%,0%); */
+  /* @apply  */
+  @apply w-full h-full ;
+  /* @apply w-full h-full; */
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  /* top:37.5% */
+
+}
+
+.centerText{
+  /* transform: translateY(-50%); */
+  /* position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  @apply h-full text-center text-white text-lg md:text-2xl lg:text-4xl mx-8 font-semibold;
+}
+
+/* top: W - .5 * largestCircleW/H */
+

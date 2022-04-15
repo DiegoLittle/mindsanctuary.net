@@ -1,0 +1,29 @@
+.slider {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    margin-top: -4px;
+    @apply cursor-pointer h-6 w-full appearance-none rounded-lg bg-gray-100 p-0 focus:shadow-none focus:outline-none focus:ring-0;
+}
+
+.symptomSlider {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    margin-top: -4px;
+    @apply cursor-pointer h-6 w-full appearance-none rounded-lg bg-gradient-to-r from-green-500 to-red-500 p-0 focus:shadow-none focus:outline-none focus:ring-0;
+}
+
+.sliderSmall {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    margin-top: -4px;
+    @apply cursor-pointer h-6 w-1/2 appearance-none rounded-lg bg-gray-100 p-0 focus:shadow-none focus:outline-none focus:ring-0;
+}

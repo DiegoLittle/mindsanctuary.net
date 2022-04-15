@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ input[type=range].slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    @apply bg-fountain-blue-500;
+    /* margin-top: -4px; */
+ }
+ input[type=range].symptomSlider::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   border: none;
+   height: 16px;
+   width: 16px;
+   border-radius: 50%;
+   @apply bg-gray-900;
+   /* margin-top: -4px; */
+}
+#areas > path:hover{
+    fill: transparent;
+}
+#areas > path:nth-child(16):hover{
+   fill:black
+}
+ input[type=range]:active::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    /* margin-top: -4px; */
+    @apply bg-fountain-blue-400;
+ }
+ input[type=range]:active.symptomSlider::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   border: none;
+   height: 16px;
+   width: 16px;
+   border-radius: 50%;
+   /* margin-top: -4px; */
+   @apply bg-gray-700;
+}
+ input[type=range]:focus {
+    outline: none;
+ }
+
+  input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+ }
+ 
+ input[type=range]::-ms-fill-lower {
+    background: #777;
+    border-radius: 10px;
+ }
+ input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+ }
+ input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+ }
+
+ #twitter svg {
+   fill: #1da1f2;
+ }
+ #linkedin svg {
+   fill: #0e76a8;
+ }
+ #github {
+   fill: #333;
+ }
+ #facebook svg {
+   fill:#3b5999;
+ }

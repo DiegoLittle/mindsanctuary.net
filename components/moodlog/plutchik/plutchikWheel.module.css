@@ -1,0 +1,7 @@
+.wheel #areas path:hover{
+    fill: transparent;
+}
+
+#areas > path:nth-child(29):hover{
+    fill:black;
+}

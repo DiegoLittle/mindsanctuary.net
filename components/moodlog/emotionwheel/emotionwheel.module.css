@@ -1,0 +1,16 @@
+.svg {
+    height: 220px;
+    width: 220px;
+  }
+  
+.path {
+    /* fill: url(#gradient); */
+  }
+.group {
+    fill:url(#gradient);
+}
+
+.envy{
+    /* @apply */
+}
+  

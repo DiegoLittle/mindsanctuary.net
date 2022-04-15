@@ -1,0 +1,184 @@
+{
+    "id":3,
+    "title":"GAD-7",
+    "type":"Anxiety",
+    "subtitle":"How often have you been bothered by the following over the past 2 weeks?",
+    "url":"https://mindsanctuary.net/surveys/GAD-7",
+    "questions":[
+       {
+          "id":0,
+          "question":"Feeling nervous, anxious, or on edge?",
+          "choice":{
+             
+          },
+          "answers":[
+             {
+                "title":"Not at all",
+                "value":0
+             },
+             {
+                "title":"Several days",
+                "value":1
+             },
+             {
+                "title":"More than half the days",
+                "value":2
+             },
+             {
+                "title":"Nearly every day",
+                "value":3
+             }
+          ]
+       },
+       {
+          "id":1,
+          "question":"Not being able to stop or control worrying?",
+          "choice":{
+             
+          },
+          "answers":[
+             {
+                "title":"Not at all",
+                "value":0
+             },
+             {
+                "title":"Several days",
+                "value":1
+             },
+             {
+                "title":"More than half the days",
+                "value":2
+             },
+             {
+                "title":"Nearly every day",
+                "value":3
+             }
+          ]
+       },
+       {
+          "id":2,
+          "question":"Worrying too much about different things",
+          "choice":{
+             
+          },
+          "answers":[
+             {
+                "title":"Not at all",
+                "value":0
+             },
+             {
+                "title":"Several days",
+                "value":1
+             },
+             {
+                "title":"More than half the days",
+                "value":2
+             },
+             {
+                "title":"Nearly every day",
+                "value":3
+             }
+          ]
+       },
+       {
+          "id":3,
+          "question":"Trouble relaxing?",
+          "choice":{
+             
+          },
+          "answers":[
+             {
+                "title":"Not at all",
+                "value":0
+             },
+             {
+                "title":"Several days",
+                "value":1
+             },
+             {
+                "title":"More than half the days",
+                "value":2
+             },
+             {
+                "title":"Nearly every day",
+                "value":3
+             }
+          ]
+       },
+       {
+          "id":4,
+          "question":"Being so restless that it is hard to sit still ?",
+          "choice":{
+             
+          },
+          "answers":[
+             {
+                "title":"Not at all",
+                "value":0
+             },
+             {
+                "title":"Several days",
+                "value":1
+             },
+             {
+                "title":"More than half the days",
+                "value":2
+             },
+             {
+                "title":"Nearly every day",
+                "value":3
+             }
+          ]
+       },
+       {
+          "id":5,
+          "question":"Becoming easily annoyed or irritable?",
+          "choice":{
+             
+          },
+          "answers":[
+             {
+                "title":"Not at all",
+                "value":0
+             },
+             {
+                "title":"Several days",
+                "value":1
+             },
+             {
+                "title":"More than half the days",
+                "value":2
+             },
+             {
+                "title":"Nearly every day",
+                "value":3
+             }
+          ]
+       },
+       {
+          "id":6,
+          "question":"Feeling afraid, as if something awful might happen?",
+          "choice":{
+             
+          },
+          "answers":[
+             {
+                "title":"Not at all",
+                "value":0
+             },
+             {
+                "title":"Several days",
+                "value":1
+             },
+             {
+                "title":"More than half the days",
+                "value":2
+             },
+             {
+                "title":"Nearly every day",
+                "value":3
+             }
+          ]
+       }
+    ]
+ }

@@ -1,0 +1,30 @@
+[
+    {
+      "INN": "Amfetamine",
+      "Common brand names": "Evekeo"
+    },
+    {
+      "INN": "Amfetamine + Dexamfetamine",
+      "Common brand names": "Adderall, Adzenys, Dyanavel, Mydayis"
+    },
+    {
+      "INN": "Dexamfetamine",
+      "Common brand names": "Dexedrine, Dextrostat, Zenzedi"
+    },
+    {
+      "INN": "Lisdexamfetamine",
+      "Common brand names": "Vyvanse, Elvanse"
+    },
+    {
+      "INN": "Methylphenidate",
+      "Common brand names": "Ritalin, Concerta"
+    },
+    {
+      "INN": "Dexmethylphenidate",
+      "Common brand names": "Focalin"
+    },
+    {
+      "INN": "Metamfetamine",
+      "Common brand names": "Desoxyn"
+    }
+   ]

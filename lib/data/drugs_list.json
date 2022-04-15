@@ -1,0 +1,1031 @@
+[
+    {
+        "INN": "Atomoxetine",
+        "brand_names": "Strattera",
+        "disorder": "adhd",
+        "type": "Non-stimulant"
+    },
+    {
+        "INN": "Clonidine",
+        "brand_names": "Kapvay",
+        "disorder": "adhd",
+        "type": "Non-stimulant"
+    },
+    {
+        "INN": "Guanfacine",
+        "brand_names": "Intuniv, Tenex",
+        "disorder": "adhd",
+        "type": "Non-stimulant"
+    },
+    {
+        "INN": "Modafinil",
+        "brand_names": "Provigil, Alertec, Modavigil",
+        "disorder": "adhd",
+        "type": "Non-stimulant"
+    },
+    {
+        "INN": "Amfetamine",
+        "brand_names": "Evekeo",
+        "disorder": "adhd",
+        "type": "Stimulant"
+    },
+    {
+        "INN": "Amfetamine + Dexamfetamine",
+        "brand_names": "Adderall, Adzenys, Dyanavel, Mydayis",
+        "disorder": "adhd",
+        "type": "Stimulant"
+    },
+    {
+        "INN": "Dexamfetamine",
+        "brand_names": "Dexedrine, Dextrostat, Zenzedi",
+        "disorder": "adhd",
+        "type": "Stimulant"
+    },
+    {
+        "INN": "Lisdexamfetamine",
+        "brand_names": "Vyvanse, Elvanse",
+        "disorder": "adhd",
+        "type": "Stimulant"
+    },
+    {
+        "INN": "Methylphenidate",
+        "brand_names": "Ritalin, Concerta",
+        "disorder": "adhd",
+        "type": "Stimulant"
+    },
+    {
+        "INN": "Dexmethylphenidate",
+        "brand_names": "Focalin",
+        "disorder": "adhd",
+        "type": "Stimulant"
+    },
+    {
+        "INN": "Metamfetamine",
+        "brand_names": "Desoxyn",
+        "disorder": "adhd",
+        "type": "Stimulant"
+    },
+    {
+        "INN": "Acamprosate",
+        "brand_names": "Campral",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Baclofen",
+        "brand_names": "Baclosan, Kemstro, Lioresal",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Buprenorphine",
+        "brand_names": "Subutex",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Buprenorphine + Naloxone",
+        "brand_names": "Suboxone",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Clonidine",
+        "brand_names": "Catapres, Kapvay, Nexiclon",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Disulfiram",
+        "brand_names": "Antabuse",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Methadone",
+        "brand_names": "Dolophine",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Nalmefene",
+        "brand_names": "Selincro",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Naltrexone",
+        "brand_names": "Depade, ReVia, Vivitrol",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Ondansetron",
+        "brand_names": "Zofran",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Topiramate",
+        "brand_names": "Topamax",
+        "disorder": "alcohol",
+        "type": "opioid"
+    },
+    {
+        "INN": "Citalopram",
+        "brand_names": "Celexa, Cipramil",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Clomipramine",
+        "brand_names": "Anafranil",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Doxepin",
+        "brand_names": "Doxepin, Sinequan",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Escitalopram",
+        "brand_names": "Cipralex, Lexapro",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Fluoxetine",
+        "brand_names": "Prozac, Sarafem",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Fluvoxamine",
+        "brand_names": "Fevarin, Luvox",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Imipramine",
+        "brand_names": "Tofranil",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Mirtazapine",
+        "brand_names": "Avanza, Remeron, Zispin",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Paroxetine",
+        "brand_names": "Paxil, Pexeva, Seroxat",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Sertraline",
+        "brand_names": "Lustral, Zoloft",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Trazodone",
+        "brand_names": "Azona, Deprax, Desyrel, Oleptro, Trittico, Thombran",
+        "disorder": "anxiety",
+        "type": "anidepressants"
+    },
+    {
+        "INN": "Alprazolam",
+        "brand_names": "Xanax",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Bromazepam",
+        "brand_names": "Lexotanil",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Chlordiazepoxide",
+        "brand_names": "Librium",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Clobazam",
+        "brand_names": "Frisium",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Clonazepam",
+        "brand_names": "Klonopin, Rivotril",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Clorazepate",
+        "brand_names": "Tranxene",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Diazepam",
+        "brand_names": "Valium",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Lorazepam",
+        "brand_names": "Ativan, Temesta",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Oxazepam",
+        "brand_names": "Serax",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Tofisopam",
+        "brand_names": "Emandaxin, Grandaxin",
+        "disorder": "anxiety",
+        "type": "benzo"
+    },
+    {
+        "INN": "Buspirone",
+        "brand_names": "BuSpar, Spitomin",
+        "disorder": "anxiety",
+        "type": "nonbenzo"
+    },
+    {
+        "INN": "Hydroxyzine",
+        "brand_names": "Atarax, Vistaril",
+        "disorder": "anxiety",
+        "type": "nonbenzo"
+    },
+    {
+        "INN": "Meprobamate",
+        "brand_names": "Equanil, Miltown",
+        "disorder": "anxiety",
+        "type": "nonbenzo"
+    },
+    {
+        "INN": "Gabapentin",
+        "brand_names": "Neurontin, Gabaran",
+        "disorder": "anxiety",
+        "type": "nonbenzo"
+    },
+    {
+        "INN": "Pregabalin",
+        "brand_names": "Lyrica",
+        "disorder": "anxiety",
+        "type": "nonbenzo"
+    },
+    {
+        "INN": "Aripiprazole",
+        "brand_names": "Abilify",
+        "disorder": "autism",
+        "type": "antipsychotic"
+    },
+    {
+        "INN": "Risperidone",
+        "brand_names": "Risperdal",
+        "disorder": "autism",
+        "type": "antipsychotic"
+    },
+    {
+        "INN": "Aripiprazole",
+        "brand_names": "Abilify",
+        "disorder": "bipolar",
+        "type": "atypicalantipsychotics"
+    },
+    {
+        "INN": "Asenapine",
+        "brand_names": "Saphris, Sycrest",
+        "disorder": "bipolar",
+        "type": "atypicalantipsychotics"
+    },
+    {
+        "INN": "Cariprazine",
+        "brand_names": "Vraylar, Reagila",
+        "disorder": "bipolar",
+        "type": "atypicalantipsychotics"
+    },
+    {
+        "INN": "Lurasidone",
+        "brand_names": "Latuda",
+        "disorder": "bipolar",
+        "type": "atypicalantipsychotics"
+    },
+    {
+        "INN": "Olanzapine",
+        "brand_names": "Zyprexa",
+        "disorder": "bipolar",
+        "type": "atypicalantipsychotics"
+    },
+    {
+        "INN": "Quetiapine",
+        "brand_names": "Seroquel",
+        "disorder": "bipolar",
+        "type": "atypicalantipsychotics"
+    },
+    {
+        "INN": "Risperidone",
+        "brand_names": "Risperdal",
+        "disorder": "bipolar",
+        "type": "atypicalantipsychotics"
+    },
+    {
+        "INN": "Ziprasidone",
+        "brand_names": "Geodon, Zeldox",
+        "disorder": "bipolar",
+        "type": "atypicalantipsychotics"
+    },
+    {
+        "INN": "Carbamazepine",
+        "brand_names": "Carbatrol, Carnevix, Epitol, Equetro, Tegretol, Tegretol XR, Teril",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Gabapentin",
+        "brand_names": "Neurontin",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Lamotrigine",
+        "brand_names": "Lamictal",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Levetiracetam",
+        "brand_names": "Keppra",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Lithium salts",
+        "brand_names": "Camcolit, Eskalith, Lithobid, Sedalit",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Oxcarbazepine",
+        "brand_names": "Trileptal",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Topiramate",
+        "brand_names": "Topamax",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Sodium valproate [note 1]",
+        "brand_names": "Convulex, Depakene, Depakine Enteric, Orfiril, Stavzor",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Divalproex sodium [note 2]",
+        "brand_names": "Depakote, Epival, Ergenyl Chrono",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Sodium valproate and \nvalproic acid in 2.3:1 ratio",
+        "brand_names": "Depakine Chrono, Depakine Chronosphere,\nEpilim Chrono, Epilim Chronosphere",
+        "disorder": "bipolar",
+        "type": "moodsabalizers"
+    },
+    {
+        "INN": "Amisulpride",
+        "brand_names": "Amazeo, Amipride, Amival, Deniban, Solian, Soltus, Sulpitac, Sulprix",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Amitriptyline",
+        "brand_names": "Elavil, Endep, Tryptanol, Tryptomer",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Agomelatine",
+        "brand_names": "Valdoxan, Melitor, Thymanax",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Bupropion",
+        "brand_names": "Aplenzin, Wellbutrin",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Citalopram",
+        "brand_names": "Celexa, Cipramil",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Clomipramine",
+        "brand_names": "Anafranil",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Desipramine",
+        "brand_names": "Norpramin, Pertofrane",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Desvenlafaxine",
+        "brand_names": "Pristiq",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Doxepin",
+        "brand_names": "Aponal, Adapine, Deptran, Prudoxin, Silenor, Sinquan, Sinequan, Zonalon",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Duloxetine",
+        "brand_names": "Cymbalta",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Escitalopram",
+        "brand_names": "Cipralex, Lexapro",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Fluoxetine",
+        "brand_names": "Prozac, Sarafem",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Fluvoxamine",
+        "brand_names": "Luvox, Faverin",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Imipramine",
+        "brand_names": "Antideprin, Tofranil",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Lamotrigine",
+        "brand_names": "Lamictal",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Levomilnacipran",
+        "brand_names": "Fetzima",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Mirtazapine",
+        "brand_names": "Remeron, Avanza",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Moclobemide",
+        "brand_names": "Aurorix, Manerix",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Nortriptyline",
+        "brand_names": "Aventyl, Pamelor",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Paroxetine",
+        "brand_names": "Paxil, Pexeva, Seroxat",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Phenelzine",
+        "brand_names": "Nardil",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Protriptyline",
+        "brand_names": "Vivactil",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Reboxetine",
+        "brand_names": "Edronax, Norebox, Prolift, Solvex, Vestra",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Rubidium chloride",
+        "brand_names": "Rubinorm",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Selegiline",
+        "brand_names": "Emsam",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Sertraline",
+        "brand_names": "Zoloft, Lustral",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Tianeptine",
+        "brand_names": "Stablon, Coaxil, Tatinol",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Tranylcypromine",
+        "brand_names": "Parnate",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Trazodone",
+        "brand_names": "Azona, Deprax, Desyrel, Oleptro, Trittico, Thombran",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Venlafaxine",
+        "brand_names": "Effexor, Effexor XR",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Vilazodone",
+        "brand_names": "Viibryd",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Vortioxetine",
+        "brand_names": "Trintellix",
+        "disorder": "depressive"
+    },
+    {
+        "INN": "Amitriptyline",
+        "brand_names": "Elavil, Endep, Laroxyl, Lentizol, Saroten, Sarotex, Tryptizol, Tryptomer",
+        "disorder": "insomnia",
+        "type": "antidepressants"
+    },
+    {
+        "INN": "Doxepin",
+        "brand_names": "Doxepin, Silenor",
+        "disorder": "insomnia",
+        "type": "antidepressants"
+    },
+    {
+        "INN": "Mianserin",
+        "brand_names": "Bolvidon, Depnon, Lerivon, Tolvon",
+        "disorder": "insomnia",
+        "type": "antidepressants"
+    },
+    {
+        "INN": "Mirtazapine",
+        "brand_names": "Avanza, Remeron, Zispin",
+        "disorder": "insomnia",
+        "type": "antidepressants"
+    },
+    {
+        "INN": "Trazodone",
+        "brand_names": "Azona, Deprax, Desyrel, Oleptro, Trittico, Thombran",
+        "disorder": "insomnia",
+        "type": "antidepressants"
+    },
+    {
+        "INN": "Trimipramine",
+        "brand_names": "Rhotrimine, Stangyl, Surmontil",
+        "disorder": "insomnia",
+        "type": "antidepressants"
+    },
+    {
+        "INN": "Alimemazine",
+        "brand_names": "Nedeltran, Theralen, Theralene, Theraligene",
+        "disorder": "insomnia",
+        "type": "antihistamines"
+    },
+    {
+        "INN": "Cyproheptadine",
+        "brand_names": "Periactin, Peritol",
+        "disorder": "insomnia",
+        "type": "antihistamines"
+    },
+    {
+        "INN": "Diphenhydramine",
+        "brand_names": "Benadryl, Dimedrol, Daedalon, Nytol",
+        "disorder": "insomnia",
+        "type": "antihistamines"
+    },
+    {
+        "INN": "Doxylamine",
+        "brand_names": "Donormyl, Dormidina, Dozile, NyQuil, Restavit, Somnil, Unisom SleepTab",
+        "disorder": "insomnia",
+        "type": "antihistamines"
+    },
+    {
+        "INN": "Hydroxyzine",
+        "brand_names": "Atarax, Vistaril",
+        "disorder": "insomnia",
+        "type": "antihistamines"
+    },
+    {
+        "INN": "Promethazine",
+        "brand_names": "Avomine, Fargan, Phenergan, Pipolphen, Promethegan, Prothiazine, Romergan, Sominex",
+        "disorder": "insomnia",
+        "type": "antihistamines"
+    },
+    {
+        "INN": "Amobarbital",
+        "brand_names": "Amytal Sodium",
+        "disorder": "insomnia",
+        "type": "barbiturates"
+    },
+    {
+        "INN": "Amobarbital/secobarbital",
+        "brand_names": "Tuinal",
+        "disorder": "insomnia",
+        "type": "barbiturates"
+    },
+    {
+        "INN": "Butobarbital",
+        "brand_names": "Neonal, Soneryl",
+        "disorder": "insomnia",
+        "type": "barbiturates"
+    },
+    {
+        "INN": "Cyclobarbital/Diazepam",
+        "brand_names": "Reladorm",
+        "disorder": "insomnia",
+        "type": "barbiturates"
+    },
+    {
+        "INN": "Pentobarbital",
+        "brand_names": "Nembutal Sodium",
+        "disorder": "insomnia",
+        "type": "barbiturates"
+    },
+    {
+        "INN": "Phenobarbital",
+        "brand_names": "Luminal",
+        "disorder": "insomnia",
+        "type": "barbiturates"
+    },
+    {
+        "INN": "Secobarbital",
+        "brand_names": "Seconal Sodium",
+        "disorder": "insomnia",
+        "type": "barbiturates"
+    },
+    {
+        "INN": "Brotizolam",
+        "brand_names": "Lendormin",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Estazolam",
+        "brand_names": "Eurodin, ProSom",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Flunitrazepam",
+        "brand_names": "Hipnosedon, Hypnodorm, Rohypnol, Vulbegal",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Flurazepam",
+        "brand_names": "Dalmadorm, Dalmane",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Loprazolam",
+        "brand_names": "Dormonoct",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Lormetazepam",
+        "brand_names": "Noctamid",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Midazolam",
+        "brand_names": "Dormicum, Hypnofast",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Nimetazepam",
+        "brand_names": "Erimin",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Nitrazepam",
+        "brand_names": "Alodorm, Dumolid, Mogadon, Pacisyn, Radedorm 5",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Phenazepam",
+        "brand_names": "Phenazepam, Phenorelaxan, Phezipam",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Quazepam",
+        "brand_names": "Doral, Dormalin",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Temazepam",
+        "brand_names": "Normison, Restoril",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Triazolam",
+        "brand_names": "Halcion",
+        "disorder": "insomnia",
+        "type": "benzo"
+    },
+    {
+        "INN": "Agomelatine",
+        "brand_names": "Melitor, Thymanax, Valdoxan",
+        "disorder": "insomnia",
+        "type": "melatonergic"
+    },
+    {
+        "INN": "Melatonin",
+        "brand_names": "Circadin, Melaxen",
+        "disorder": "insomnia",
+        "type": "melatonergic"
+    },
+    {
+        "INN": "Ramelteon",
+        "brand_names": "Rozerem",
+        "disorder": "insomnia",
+        "type": "melatonergic"
+    },
+    {
+        "INN": "Eszopiclone",
+        "brand_names": "Lunesta",
+        "disorder": "insomnia",
+        "type": "zdrugs"
+    },
+    {
+        "INN": "Zaleplon",
+        "brand_names": "Andante, Sonata, Starnoc",
+        "disorder": "insomnia",
+        "type": "zdrugs"
+    },
+    {
+        "INN": "Zolpidem",
+        "brand_names": "Ambien CR, Hypnogen, Intermezzo, Ivadal, Sanval, Snovitel, Stilnoct, Stilnox, Sublinox",
+        "disorder": "insomnia",
+        "type": "zdrugs"
+    },
+    {
+        "INN": "Zopiclone",
+        "brand_names": "Imovane, Imrest, Piclodorm, Somnol, Zimovane",
+        "disorder": "insomnia",
+        "type": "zdrugs"
+    },
+    {
+        "INN": "Amisulpride",
+        "brand_names": "Solian",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Aripiprazole",
+        "brand_names": "Abilify",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Asenapine",
+        "brand_names": "Saphris",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Clozapine",
+        "brand_names": "Clozaril, Fazaclo, Leponex",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Iloperidone",
+        "brand_names": "Fanapt",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Lurasidone",
+        "brand_names": "Latuda",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Melperone",
+        "brand_names": "Eunerpan, Melneurin",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Olanzapine",
+        "brand_names": "Zyprexa, Zyprexa Relprevv",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Paliperidone",
+        "brand_names": "Invega, Invega Sustenna",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Quetiapine",
+        "brand_names": "Seroquel",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Risperidone",
+        "brand_names": "Risperdal, Risperdal Consta",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Ziprasidone",
+        "brand_names": "Geodon, Zeldox",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Zotepine",
+        "brand_names": "Nipolept",
+        "disorder": "psychotic",
+        "type": "atypical"
+    },
+    {
+        "INN": "Benperidol",
+        "brand_names": "Benperidol Neuraxph, Glianimon",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "Bromperidol",
+        "brand_names": "Impromen",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "Fluphenazine",
+        "brand_names": "decanoate",
+        "FIELD3": "Anatensol, Dapotum D, Deconoat, Fludecate,\nModecate, Prolixin Decanoate, Sinqualone",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "enanthate",
+        "brand_names": "Dapotum Injektion, Flunanthate, Moditen\nEnanthate Injection, Sinqualone Enantat",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "hydrochloride",
+        "brand_names": "Dapotum, Permitil, Prolixin, Lyogen, Moditen,\nOmca, Sediten, Selecten, Sevinol, Siqualone, Trancin",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "Flupentixol",
+        "brand_names": "Depixol, Fluanxol",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "Fluspirilen",
+        "brand_names": "Fluspi, Fluspirilen Beta, Imap",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "Haloperidol",
+        "brand_names": "Haldol, Serenase",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "Pimozide",
+        "brand_names": "Orap",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "Trifluoperazine",
+        "brand_names": "Stelazine",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "Zuclopenthixol",
+        "brand_names": "Cisordinol, Clopixol",
+        "FIELD3": "",
+        "disorder": "psychotic",
+        "type": "typicalhigh"
+    },
+    {
+        "INN": "Chlorprothixene",
+        "brand_names": "Truxal",
+        "disorder": "psychotic",
+        "type": "typicallow"
+    },
+    {
+        "INN": "Levomepromazine/methotrimeprazine",
+        "brand_names": "Levium, Levomepromazine Neuraxph, Neurocil",
+        "disorder": "psychotic",
+        "type": "typicallow"
+    },
+    {
+        "INN": "Perazine",
+        "brand_names": "Perazin Neuraxph, Taxilan",
+        "disorder": "psychotic",
+        "type": "typicallow"
+    },
+    {
+        "INN": "Promethazine",
+        "brand_names": "Atosil, Closin, Promethazin Neuraxph, Proneurin, Prothazin",
+        "disorder": "psychotic",
+        "type": "typicallow"
+    },
+    {
+        "INN": "Prothipendyl",
+        "brand_names": "Dominal",
+        "disorder": "psychotic",
+        "type": "typicallow"
+    },
+    {
+        "INN": "Sulpiride",
+        "brand_names": "Dogmatil, Dogmatyl, Sulpirid",
+        "disorder": "psychotic",
+        "type": "typicallow"
+    },
+    {
+        "INN": "Thioridazine",
+        "brand_names": "Mellaril, Thioridazin Neuraxph",
+        "disorder": "psychotic",
+        "type": "typicallow"
+    },
+    {
+        "INN": "Perphenazine",
+        "brand_names": "Trilafon",
+        "disorder": "psychotic",
+        "type": "typicalmedium"
+    },
+    {
+        "INN": "Thiothixene",
+        "brand_names": "Navane",
+        "disorder": "psychotic",
+        "type": "typicalmedium"
+    },
+    {
+        "INN": "Bupropion",
+        "brand_names": "Voxra, Zyban",
+        "disorder": "smoking",
+        "type": "cessation"
+    },
+    {
+        "INN": "Cytisine",
+        "brand_names": "Tabex, Desmoxan",
+        "disorder": "smoking",
+        "type": "cessation"
+    },
+    {
+        "INN": "Varenicline",
+        "brand_names": "Champix, Chantix",
+        "disorder": "smoking",
+        "type": "cessation"
+    }
+]

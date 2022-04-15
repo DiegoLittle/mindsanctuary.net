@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mindsanctuary.net
+
+# Sitemaps
+Sitemap: https://mindsanctuary.net/sitemap.xml

@@ -1,0 +1,188 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider        = "prisma-client-js"
+}
+
+model Account {
+  id                 String  @id @default(cuid())
+  userId             String
+  type               String
+  provider           String
+  providerAccountId  String
+  refresh_token      String?  @db.Text
+  access_token       String?  @db.Text
+  expires_at         Int?
+  token_type         String?
+  scope              String?
+  id_token           String?  @db.Text
+  session_state      String?
+  oauth_token_secret String?
+  oauth_token        String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String    @id @default(cuid())
+  created_at DateTime @default(now())
+  name          String?
+  email_list Boolean @default(true)
+  role String? @default("user")
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  passwordhash String?
+  confirmationCode Int?
+  data Json?
+  accounts      Account[]
+  sessions      Session[]
+  surveys SurveyResponse[]
+  moodlogs MoodLog[]
+  emails Email[]
+  chat_sessions chat_session[]
+  medications medication[]
+  events analytics_event[]
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model SurveyResponse {
+  id String @id @default(cuid())
+  survey Survey @relation(fields:[surveyid],references: [id],onDelete: Cascade)
+  surveyid Int 
+  respondent User @relation(fields:[respondentid],references: [id],onDelete: Cascade)
+  respondentid String
+  questions Json?
+  isComplete Boolean @default(false)
+  results Json?
+}
+
+model Survey {
+  id Int @id @default(autoincrement())
+  responses SurveyResponse[]
+  type String?
+  estimatedTime String?
+  title String
+  subtitle String?
+  url String?
+  questions Json
+}
+
+model MoodLog{
+  id String @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  title String?
+  description String?
+  user User @relation(fields:[userid],references: [id],onDelete: Cascade)
+  userid String
+  moodvalue Int?
+  symptoms Json?
+}
+
+model RequestLog {
+  id String @id @default(cuid())
+  headers Json?
+  message String?
+  page String?
+  referrer String?
+  useragent String?
+  geo Json?
+  ip String?
+}
+
+model ContactForm {
+  id String @id @default(cuid())
+  firstName String
+  lastName String
+  email String
+  phone String?
+  subject String
+  message String
+}
+
+model Email {
+  id String @id @default(cuid())
+  title String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  read DateTime? 
+  user User @relation(fields:[userid],references: [id],onDelete: Cascade)
+  userid String
+  
+}
+
+model chat_session {
+  id String @id @default(cuid())
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  messages Json[]
+  user User @relation(fields:[userid],references: [id],onDelete: Cascade)
+  userid String
+}
+
+
+// Table for drugs that the user can search from or for internal use to supply data
+// model drug{
+// }
+
+// model medication_log {
+  
+// }
+
+model medication {
+  id String @id @default(cuid())
+  created_at DateTime @default(now())
+  name String
+  dose Int
+  daily_frequency Int
+  stopped_tracking DateTime?
+  user User @relation(fields:[userid],references: [id],onDelete: Cascade)
+  userid String
+}
+
+model analytics_event {
+  id String @id @default(cuid())
+  created_at DateTime @default(now())
+  name String
+  user User? @relation(fields:[userid],references: [id],onDelete: Cascade)
+  userid String?
+}
+
+
+// model Question {
+//   id String    @id @default(cuid())
+//   survey Survey @relation(fields: [surveyid],references: [id])
+//   surveyid String
+//   questiontext String
+//   answers Answer[]
+
+// }
+
+// model Answer {
+//   id String @id @default(cuid())
+//   question Question @relation(fields: [questionid],references: [id])
+//   questionid String
+//   survey Survey @relation(fields: [surveyid], references: [id], onDelete: Cascade)
+//   surveyid String
+// }

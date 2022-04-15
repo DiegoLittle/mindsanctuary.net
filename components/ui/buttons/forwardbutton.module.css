@@ -1,0 +1,11 @@
+.arrow{
+    @apply my-auto ml-1 h-5 w-5 transition ease-in
+}
+
+.button{
+    @apply flex mt-4 py-2 px-4 rounded-l
+}
+
+.button:hover > .arrow {
+    @apply translate-x-1
+}

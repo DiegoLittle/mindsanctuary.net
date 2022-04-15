@@ -1,0 +1,45 @@
+
+  $deg : 22.5;
+  $bg-col : #fe3541;
+  $translate : translateY(-80px);
+  
+  .wrap{
+    margin:120px auto;
+    height:0px;
+    width:0px;
+    position:relative;
+    
+    div{
+      height:30px;
+      width:40px;
+      background:$bg-col;
+      border-radius:99em;
+      position:absolute;
+      transform-origin: center bottom;
+      transform: $translate;
+      
+      @for $i from 1 to 16{
+        &:nth-child(#{$i}){
+          transform:rotate(#{$deg}deg) $translate;
+          background: $bg-col;
+        }
+
+        &:hover:nth-child(#{$i}){
+          transform:rotate(#{$deg}deg) $translate scale(1.1);
+
+        }
+        &:hover:nth-child(#{$i}) span{
+            position: relative;
+            bottom:40px;
+            right:15px;
+            font-size:40px;
+            text-align: center;
+        }
+
+        $deg : $deg + 22.5;
+        $bg-col : adjust-color($bg-col, $hue: 22.5deg, $saturation: 0, $lightness:0);
+        
+      }
+    }
+
+  }

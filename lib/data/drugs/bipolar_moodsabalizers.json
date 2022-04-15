@@ -1,0 +1,42 @@
+[
+ {
+   "INN": "Carbamazepine",
+   "Common brand names": "Carbatrol, Carnevix, Epitol, Equetro, Tegretol, Tegretol XR, Teril"
+ },
+ {
+   "INN": "Gabapentin",
+   "Common brand names": "Neurontin"
+ },
+ {
+   "INN": "Lamotrigine",
+   "Common brand names": "Lamictal"
+ },
+ {
+   "INN": "Levetiracetam",
+   "Common brand names": "Keppra"
+ },
+ {
+   "INN": "Lithium salts",
+   "Common brand names": "Camcolit, Eskalith, Lithobid, Sedalit"
+ },
+ {
+   "INN": "Oxcarbazepine",
+   "Common brand names": "Trileptal"
+ },
+ {
+   "INN": "Topiramate",
+   "Common brand names": "Topamax"
+ },
+ {
+   "INN": "Sodium valproate [note 1]",
+   "Common brand names": "Convulex, Depakene, Depakine Enteric, Orfiril, Stavzor"
+ },
+ {
+   "INN": "Divalproex sodium [note 2]",
+   "Common brand names": "Depakote, Epival, Ergenyl Chrono"
+ },
+ {
+   "INN": "Sodium valproate and \nvalproic acid in 2.3:1 ratio",
+   "Common brand names": "Depakine Chrono, Depakine Chronosphere,\nEpilim Chrono, Epilim Chronosphere"
+ }
+]
